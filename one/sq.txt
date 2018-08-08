@@ -1,0 +1,202 @@
+10:42:12.930 INFO: Option -e/--errors is no longer supported and will be ignored
+10:42:12.977 INFO: Scanner configuration file: C:\Program Mines\sonar-scanner-3.0.3.778-windows\bin\..\conf\sonar-scanner.properties
+10:42:12.992 INFO: Project root configuration file: C:\Users\External.Pallavi.Har\New folder\one\sonar-project.properties
+10:42:13.008 INFO: SonarQube Scanner 3.0.3.778
+10:42:13.008 INFO: Java 1.8.0_121 Oracle Corporation (64-bit)
+10:42:13.008 INFO: Windows 7 6.1 amd64
+10:42:13.179 DEBUG: keyStore is : 
+10:42:13.179 DEBUG: keyStore type is : jks
+10:42:13.179 DEBUG: keyStore provider is : 
+10:42:13.179 DEBUG: init keystore
+10:42:13.179 DEBUG: init keymanager of type SunX509
+10:42:13.491 INFO: User cache: C:\Users\External.Pallavi.Har\.sonar\cache
+10:42:13.491 DEBUG: Extract sonar-scanner-api-batch in temp...
+10:42:13.507 DEBUG: Get bootstrap index...
+10:42:13.507 DEBUG: Download: http://localhost:9000/batch/index
+10:42:13.663 DEBUG: Get bootstrap completed
+10:42:13.663 DEBUG: Create isolated classloader...
+10:42:13.679 DEBUG: Start temp cleaning...
+10:42:13.679 DEBUG: Temp cleaning done
+10:42:13.679 DEBUG: Execution getVersion
+10:42:14.069 DEBUG: Execution start
+10:42:14.365 INFO: Publish mode
+10:42:14.459 INFO: Load global settings
+10:42:16.738 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=2264ms
+10:42:16.754 INFO: Load global settings (done) | time=2295ms
+10:42:16.754 INFO: Server id: AWElBxWfMvD9yUnBMyH0
+10:42:16.769 INFO: User cache: C:\Users\External.Pallavi.Har\.sonar\cache
+10:42:16.988 INFO: Load plugins index
+10:42:17.019 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=31ms
+10:42:17.081 INFO: Load plugins index (done) | time=93ms
+10:42:17.081 DEBUG: Load plugins
+10:42:18.101 DEBUG: Load plugins (done) | time=1020ms
+10:42:18.445 DEBUG: Plugins:
+10:42:18.445 DEBUG:   * SonarC# 6.5.0.3766 (csharp)
+10:42:18.445 DEBUG:   * SonarPython 1.8.0.1496 (python)
+10:42:18.445 DEBUG:   * SonarJava 4.15.0.12310 (java)
+10:42:18.445 DEBUG:   * Flex 2.3 (flex)
+10:42:18.445 DEBUG:   * SonarQube :: Plugins :: SCM :: Git 1.3.0.869 (scmgit)
+10:42:18.445 DEBUG:   * SonarXML 1.4.3.1027 (xml)
+10:42:18.445 DEBUG:   * SonarPHP 2.11.0.2485 (php)
+10:42:18.445 DEBUG:   * SonarTS 1.1.0.1079 (typescript)
+10:42:18.445 DEBUG:   * SonarQube :: Plugins :: SCM :: SVN 1.6.0.860 (scmsvn)
+10:42:18.445 DEBUG:   * SonarJS 3.2.0.5506 (javascript)
+10:42:18.460 DEBUG: Execution getVersion
+10:42:18.460 INFO: SonarQube server 6.7.0
+10:42:18.460 INFO: Default locale: "en_US", source code encoding: "windows-1252" (analysis is platform dependent)
+10:42:18.460 DEBUG: Work directory: C:\Users\External.Pallavi.Har\New folder\one\.scannerwork
+10:42:18.460 DEBUG: Execution getVersion
+10:42:18.460 DEBUG: Execution execute
+10:42:19.056 INFO: Process project properties
+10:42:19.056 DEBUG: Process project properties (done) | time=0ms
+10:42:19.103 INFO: Load project repositories
+10:42:19.134 DEBUG: GET 200 http://localhost:9000/batch/project.protobuf?key=JaCoCoCodeCoverage | time=31ms
+10:42:19.197 INFO: Load project repositories (done) | time=94ms
+10:42:19.275 DEBUG: Available languages:
+10:42:19.275 DEBUG:   * C# => "cs"
+10:42:19.275 DEBUG:   * Python => "py"
+10:42:19.275 DEBUG:   * Java => "java"
+10:42:19.275 DEBUG:   * Flex => "flex"
+10:42:19.275 DEBUG:   * XML => "xml"
+10:42:19.275 DEBUG:   * PHP => "php"
+10:42:19.275 DEBUG:   * TypeScript => "ts"
+10:42:19.275 DEBUG:   * JavaScript => "js"
+10:42:19.290 INFO: Load quality profiles
+10:42:19.509 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?projectKey=JaCoCoCodeCoverage | time=219ms
+10:42:19.524 INFO: Load quality profiles (done) | time=234ms
+10:42:19.540 INFO: Load active rules
+10:42:19.665 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWElB02kMvD9yUnBMyiN&p=1&ps=500 | time=125ms
+10:42:19.883 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWElB1BCMvD9yUnBMypt&p=1&ps=500 | time=172ms
+10:42:19.945 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWElB1JVMvD9yUnBMyvT&p=1&ps=500 | time=46ms
+10:42:19.977 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWElB1HoMvD9yUnBMyuU&p=1&ps=500 | time=16ms
+10:42:20.008 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWElB1RYMvD9yUnBMy05&p=1&ps=500 | time=31ms
+10:42:20.039 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWElB1VwMvD9yUnBMy24&p=1&ps=500 | time=31ms
+10:42:20.070 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWElB1oCMvD9yUnBMy5p&p=1&ps=500 | time=31ms
+10:42:20.101 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWElB143MvD9yUnBMy6t&p=1&ps=500 | time=31ms
+10:42:20.117 INFO: Load active rules (done) | time=577ms
+10:42:20.117 INFO: Load metrics repository
+10:42:20.148 DEBUG: GET 200 http://localhost:9000/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=31ms
+10:42:20.148 INFO: Load metrics repository (done) | time=31ms
+10:42:20.195 WARN: SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+10:42:20.195 INFO: Project key: JaCoCoCodeCoverage
+10:42:20.195 DEBUG: Start recursive analysis of project modules
+10:42:20.195 INFO: -------------  Scan JaCoCoCodeCoverage
+10:42:20.382 INFO: Load server rules
+10:42:20.585 DEBUG: GET 200 http://localhost:9000/api/rules/list.protobuf | time=203ms
+10:42:20.601 INFO: Load server rules (done) | time=219ms
+10:42:20.632 INFO: Base dir: C:\Users\External.Pallavi.Har\New folder\one
+10:42:20.632 INFO: Working dir: C:\Users\External.Pallavi.Har\New folder\one\.scannerwork
+10:42:20.647 INFO: Source paths: src/main/java
+10:42:20.647 INFO: Test paths: src/test/java
+10:42:20.647 INFO: Source encoding: windows-1252, default locale: en_US
+10:42:20.731 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+10:42:20.747 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+10:42:20.747 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+10:42:20.747 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+10:42:20.747 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+10:42:20.747 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+10:42:20.747 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+10:42:20.747 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.vue
+10:42:20.747 DEBUG: Initializers : 
+10:42:20.747 INFO: Index files
+10:42:20.763 DEBUG: 'src\main\java\org\illu\one\Abacus.java' indexed with language 'java'
+10:42:20.763 DEBUG: 'src\test\java\org\illu\oneTest\AbacusTest.java' indexed as test with language 'java'
+10:42:20.763 INFO: 2 files indexed
+10:42:20.763 INFO: Quality profile for java: Sonar way
+10:42:21.668 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+10:42:21.668 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+10:42:21.668 DEBUG: 'C#' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+10:42:21.668 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'Python Squid Sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'Flex' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'TypeScript Sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'TypeScript LCOV Coverage Sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'JavaScript Squid Sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+10:42:21.668 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+10:42:21.668 DEBUG: 'C#' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+10:42:21.668 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'Python Squid Sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'Flex' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'TypeScript Sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'TypeScript LCOV Coverage Sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: 'JavaScript Squid Sensor' skipped because there is no related file in current project
+10:42:21.668 DEBUG: Sensors : JavaSquidSensor -> SurefireSensor -> JaCoCoSensor -> SonarJavaXmlFileSensor -> Analyzer for "php.ini" files -> Zero Coverage Sensor -> CPD Block Indexer
+10:42:21.668 INFO: Sensor JavaSquidSensor [java]
+10:42:21.871 INFO: Configured Java source version (sonar.java.source): 7
+10:42:21.871 INFO: JavaClasspath initialization
+10:42:21.887 WARN: Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+10:42:21.887 INFO: JavaClasspath initialization (done) | time=16ms
+10:42:21.887 INFO: JavaTestClasspath initialization
+10:42:21.887 WARN: Bytecode of dependencies was not provided for analysis of test files, you might end up with less precise results. Bytecode can be provided using sonar.java.test.libraries property
+10:42:21.887 INFO: JavaTestClasspath initialization (done) | time=0ms
+10:42:22.136 DEBUG: ----- Classpath analyzed by Squid:
+10:42:22.136 DEBUG: C:\Users\External.Pallavi.Har\New folder\one\target\classes
+10:42:22.136 DEBUG: -----
+10:42:22.136 DEBUG: ----- Classpath analyzed by Squid:
+10:42:22.136 DEBUG: -----
+10:42:22.136 INFO: Java Main Files AST scan
+10:42:22.136 INFO: 1 source files to be analyzed
+10:42:22.168 DEBUG: 'src/main/java/org/illu/one/Abacus.java' generated metadata  with charset 'windows-1252'
+10:42:22.542 INFO: Java Main Files AST scan (done) | time=406ms
+10:42:22.542 INFO: 1/1 source files have been analyzed
+10:42:22.542 INFO: Java Test Files AST scan
+10:42:22.542 INFO: 1 source files to be analyzed
+10:42:22.542 DEBUG: 'src/test/java/org/illu/oneTest/AbacusTest.java' generated metadata as test  with charset 'windows-1252'
+10:42:22.604 INFO: Java Test Files AST scan (done) | time=62ms
+10:42:22.604 INFO: 1/1 source files have been analyzed
+10:42:22.604 INFO: Sensor JavaSquidSensor [java] (done) | time=936ms
+10:42:22.604 INFO: Sensor SurefireSensor [java]
+10:42:22.604 INFO: parsing [C:\Users\External.Pallavi.Har\New folder\one\target\surefire-reports]
+10:42:22.667 INFO: Sensor SurefireSensor [java] (done) | time=63ms
+10:42:22.667 INFO: Sensor JaCoCoSensor [java]
+10:42:22.667 WARN: Property 'sonar.jacoco.reportMissing.force.zero' is deprecated and its value will be ignored.
+10:42:22.667 INFO: JaCoCo report not found: 'smt-test\results\jacoco.exec'
+10:42:22.698 WARN: You are not using the latest JaCoCo binary format version, please consider upgrading to latest JaCoCo version.
+10:42:22.698 INFO: Analysing C:\Users\External.Pallavi.Har\New folder\one\target\coverage-reports\jacoco-ut.exec
+10:42:22.761 INFO: No information about coverage per test.
+10:42:22.761 INFO: Sensor JaCoCoSensor [java] (done) | time=94ms
+10:42:22.761 INFO: Sensor SonarJavaXmlFileSensor [java]
+10:42:22.761 INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=0ms
+10:42:22.761 INFO: Sensor Analyzer for "php.ini" files [php]
+10:42:22.761 INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=0ms
+10:42:22.761 INFO: Sensor Zero Coverage Sensor
+10:42:22.777 INFO: Sensor Zero Coverage Sensor (done) | time=16ms
+10:42:22.777 INFO: Sensor CPD Block Indexer
+10:42:22.777 DEBUG: org.sonar.scanner.cpd.deprecated.JavaCpdBlockIndexer is used for java
+10:42:22.777 DEBUG: Populating index from src/main/java/org/illu/one/Abacus.java
+10:42:22.793 INFO: Sensor CPD Block Indexer (done) | time=16ms
+10:42:22.793 INFO: No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+10:42:22.793 INFO: Calculating CPD for 1 file
+10:42:22.793 DEBUG: Detection of duplications for C:/Users/External.Pallavi.Har/New folder/one/src/main/java/org/illu/one/Abacus.java
+10:42:22.808 INFO: CPD calculation finished
+10:42:22.917 INFO: Analysis report generated in 109ms, dir size=34 KB
+10:42:23.011 INFO: Analysis reports compressed in 94ms, zip size=11 KB
+10:42:23.011 INFO: Analysis report generated in C:\Users\External.Pallavi.Har\New folder\one\.scannerwork\scanner-report
+10:42:23.011 DEBUG: Upload report
+10:42:23.042 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=JaCoCoCodeCoverage&projectName=JaCoCoCodeCoverage | time=31ms
+10:42:23.042 INFO: Analysis report uploaded in 31ms
+10:42:23.042 INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/JaCoCoCodeCoverage
+10:42:23.042 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+10:42:23.042 INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AWIk9kjCNzw2kvdH1p2q
+10:42:23.042 DEBUG: Report metadata written to C:\Users\External.Pallavi.Har\New folder\one\.scannerwork\report-task.txt
+10:42:23.042 DEBUG: Post-jobs : 
+10:42:23.058 INFO: Task total time: 4.598 s
+10:42:23.058 INFO: ------------------------------------------------------------------------
+10:42:23.058 INFO: EXECUTION SUCCESS
+10:42:23.058 INFO: ------------------------------------------------------------------------
+10:42:23.058 INFO: Total time: 10.128s
+10:42:23.167 INFO: Final Memory: 52M/227M
+10:42:23.167 INFO: ------------------------------------------------------------------------
+10:42:23.167 DEBUG: Execution getVersion
+10:42:23.167 DEBUG: Execution stop
