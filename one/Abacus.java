@@ -8,6 +8,7 @@ public class Abacus {
 	}
 	
 	public static int substract(int a, int b) {
+		System.out.println("In substract();...\n");
 		return (a - b);
 	}
 	
