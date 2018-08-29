@@ -13,12 +13,14 @@ public class Abacus {
 	}
 	
 	public static int multiply (int a, int b) {
+		System.out.println("In multiply();...\n");
 		return (a * b);
 	}
 	
 	// This method has a if condition. Your test case should cover both 
 	// if and else block to achieve 100% coverage in this method
 	public static int divide(int a, int b) {
+		System.out.println("In multiply();...\n");
 		if(b > 0) {
 			return (a/b);
 		} else {
